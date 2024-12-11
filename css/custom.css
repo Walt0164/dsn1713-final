@@ -1,6 +1,6 @@
 
 
-/*# sourceMappingURL=custom.css.map */
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f9f9f9;
@@ -34,21 +34,20 @@ p {
 
 .custom-image {
     position: relative;
-    width: 70%; /* Adjust width as needed */
-    max-width: 1600px; /* Optional: Limit max width */
-    height: 500px; /* Fixed height for consistent display */
-    border-radius: 50% 50% 0 0; /* Circular top */
-    overflow: hidden; /* Clip the image to fit the shape */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
-   
+    width: 70%; 
+    max-width: 1600px;
+    height: 500px; 
+    border-radius: 50% 50% 0 0; 
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .custom-image img {
     width: 80%;
     height: 80%;
-    object-fit: cover; /* Ensure the image fills the wrapper */
-    transform: scale(1.7); /* Zoom in on the image */
-    transition: transform 0.3s ease; /* Smooth zoom effect */
+    object-fit: cover; 
+    transform: scale(1.7); 
+    transition: transform 0.3s ease; 
 }
 
 .main-banner .main-banner-wrapper,
@@ -87,18 +86,24 @@ p {
    
 }
 
-/* Define the purple color */
+.services-section{
+    background-color: #f5f0f9;
+}
+
+.page-title{
+    background-color: #f5f0f9;
+}
 :root {
     --dark-purple: #6a1b9a;
 }
 
-/* Apply the purple color to all headings */
+
 h1, h2, h3, h4, h5, h6 {
     color: var(--dark-purple);
     font-family: 'Playfair Display SC', serif;
 }
 
-/* Apply the purple color to buttons */
+
 .btn-primary {
     background-color: var(--dark-purple);
     border-color: var(--dark-purple);
@@ -107,94 +112,92 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .btn-primary:hover {
-    background-color: #8b5ba4;  /* Light purple for hover background */
-    border-color: #6a1b9a;      /* Dark purple for hover border */
+    background-color: #8b5ba4;  
+    border-color: #6a1b9a;      
 }
 
 
 
-/* Change navbar text color to purple */
 .navbar .nav-link {
-    color: #6a1b9a; /* Dark Purple */
+    color: #6a1b9a; 
 }
 
-/* Optional: Change navbar text color on hover */
+
 .navbar .nav-link:hover {
     color: #8b5ba4;
 }
 
 .btn-outline-primary {
-    color: #8b5ba4; /* Light purple text */
-    border-color: #8b5ba4; /* Light purple border */
+    color: #8b5ba4; 
+    border-color: #8b5ba4; 
 }
 
 .btn-outline-primary:hover {
-    background-color: #8b5ba4; /* Light purple background on hover */
-    color: white; /* White text when hovered */
-    border-color: #6a1b9a; /* Dark purple border on hover */
+    background-color: #8b5ba4; 
+    color: white; 
+    border-color: #6a1b9a; 
 }
 
 h4 {
-    font-size: 1.2rem; /* Adjust the size as needed */
+    font-size: 1.2rem; 
 }
-/* Footer Styling */
+
 .footer {
-    background-color: white; /* White background */
-    color: #6a1b9a; /* Purple text */
+    background-color: white; 
+    color: #6a1b9a;
 }
 
 .footer a {
-    color: #6a1b9a; /* Purple links */
-    text-decoration: none; /* Optional: remove underline */
+    color: #6a1b9a; 
+    text-decoration: none; 
     margin-right: 15px;
 }
 
 .footer a:hover {
-    color: #8b5ba4; /* Lighter purple on hover */
+    color: #8b5ba4; 
     
 }
 
-/* Search Button Styling */
+
 .footer .search-box button {
-    background-color: #6a1b9a; /* Purple background */
-    color: white; /* White text */
-    border: none; /* Remove border */
+    background-color: #6a1b9a; 
+    color: white; 
+    border: none; 
 }
 
 .footer .search-box button:hover {
-    background-color: #8b5ba4; /* Lighter purple on hover */
+    background-color: #8b5ba4; 
 }
 
 h1.display-4,
 p {
-    color: black; /* Set text color to black for both h1 and p */
+    color: black; 
 }
 
 .social-icons a {
-    margin: 0 10px; /* Adds space between icons */
-    font-size: 36px; /* Increases the size of the icons */
+    margin: 0 10px; 
+    font-size: 36px; 
 }
 
 .social-icons a:hover {
-    color: #6a1b9a; /* Adds hover effect with darker purple */
+    color: #6a1b9a; 
 }
 
 .social-icons {
-    flex-direction: row; /* Align icons in a row */
+    flex-direction: row; 
 }
 .footer-links, .search-box {
-    margin: 0 10px; /* Adds space between items */
+    margin: 0 10px; 
 }
 
-/* Hide footer links and search bar on small devices (below 'lg' size) */
 @media (max-width: 991px) {
     .footer-links, .search-box {
         display: none;
     }
     .social-icons {
         display: flex;
-        justify-content: center; /* Center the icons */
-        align-items: center; /* Vertically align the icons */
-        flex: 1; /* Allow the social icons section to take up available space */
+        justify-content: center; 
+        align-items: center; 
+        flex: 1; 
     }
 }
