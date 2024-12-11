@@ -1,0 +1,16 @@
+$dark-purple: #6a1b9a; // Your dark purple color variable
+
+.btn-primary {
+    background-color: $dark-purple;
+    border-color: $dark-purple;
+
+    &:hover {
+        background-color: lighten($dark-purple, 20%); // Lighter shade for hover
+        border-color: lighten($dark-purple, 20%); // Lighter border for hover
+    }
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: $dark-purple;
+}
